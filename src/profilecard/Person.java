@@ -29,7 +29,7 @@ public class Person {
 
     @Override
     public String toString() {
-        String result = "Name: " + getName() + " | Age: " + getAge() + " | Phone: " + getPhoneNumber();
+        String result = "Name: " + getName() + "|Age: " + getAge() + "|Phone: " + getPhoneNumber();
         return result;
     }
 }

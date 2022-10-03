@@ -22,7 +22,7 @@ public class Card {
 
     @Override
     public String toString() {
-        String result = "ID: " + getId() + " " + person.toString();
+        String result = "ID: " + getId() + "|" + person.toString();
         return result;
     }
 }

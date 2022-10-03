@@ -17,7 +17,7 @@ public class CardCreator implements UserInput{
         Card card = new Card();
         card.setPerson(person);
         card.setId(Id.getId());
-        CardList.getInstance().addCard(card.toString());
+        CardList.getInstance().addCard(card);
         System.out.println("Довблена новая запись:\n" + card.toString());
     }
 

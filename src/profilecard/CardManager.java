@@ -22,10 +22,11 @@ public class CardManager implements UserInput{
         return instance;
     }
     public void start() throws IOException {
+        fileManager.importer.read();
         while(true){
             System.out.println("1 - добавление нового контакта \n" +
                                "2 - поиск контакта в справочнике \n" +
-                               "3 - импорт/экспорт справочника в файл \n" +
+                               "3 - экспорт справочника в файл \n" +
                                "4 - показать весь справочник \n" +
                                "5 - выход из программы");
             String userChoice = reader.readLine();
